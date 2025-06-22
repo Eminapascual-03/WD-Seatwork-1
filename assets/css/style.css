@@ -235,6 +235,15 @@
     }
 }
 
+.footer3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(107, 236, 127);
+    font-size: 1rem;
+    padding: 0.2rem 3rem;
+}
+
 /* Fourth Header (Stell) */
 .header4 {
     display: flex;
@@ -297,6 +306,15 @@
     }
 }
 
+.footer4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(107, 236, 127);
+    font-size: 1rem;
+    padding: 0.2rem 3rem;
+}
+
 /* Fifth Header (Josh) */
 /* .header5 {
     display: flex;
@@ -357,14 +375,14 @@
     }
 } */
 
-.footer5 {
+/* .footer5 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 186, 186);
     font-size: 0.8rem;
     padding: 0.2rem 1rem;
-}
+} */
 
 /* Sixth Header (Pablo) */
 .header6 {
@@ -440,16 +458,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 2rem 4rem;
   background-color: rgb(143, 53, 146);
   position: relative;
 }
 
-.left, .right {
+/* Move these OUTSIDE .header7 */
+.left {
   display: flex;
   gap: 1.5rem;
-  /* z-index: 2; Keeps them clickable if needed*/
-} 
+}
 
 .logo-container {
   position: absolute;
@@ -461,7 +479,6 @@
   max-width: 9rem;
 }
 
-/* Button styling */
 .btn7 {
   color: #ffffff;
   background-color: rgb(74, 180, 255);
@@ -481,4 +498,14 @@
 .btn7:active {
   color: #240024;
   transform: scale(0.95);
+}
+
+/* ✅ This was nested incorrectly, now placed at the root level */
+.footer7 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(107, 236, 127);
+  font-size: 1rem;
+  padding: 0.2rem 3rem;
 }
