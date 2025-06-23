@@ -97,13 +97,14 @@
 }
 
 /* second header (Justin) */
-
 .header2 {
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
     justify-content: space-around;
-    background-color: rgb(137, 195, 132);
+    background: linear-gradient(to right, rgb(33, 105, 33), rgb(49, 152, 49), rgb(150, 227, 170)); /* light to dark green */
+}
+
 
     .left {
         align-items: center;
@@ -116,8 +117,8 @@
 
     .company-name2{
         font-size: 1.5rem;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        color: rgb(0, 0, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
         }
     }
 
@@ -155,17 +156,32 @@
         }
         }
     }
+
+.social-footer2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(23, 64, 176);
 }
 
+.social-footer2 img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
 
-.footer2 {
+/* .footer2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: rgb(107, 236, 127);
     font-size: 1rem;
     padding: 0.2rem 3rem;
-}
+} */
 
 /* Third header (Ken) */
 .header3 {
@@ -186,7 +202,7 @@
   color: #fdfdfd;
 }
 
-    .right {
+    .left {
         display: flex;
         gap: 1.5rem;
 }
