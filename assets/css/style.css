@@ -105,7 +105,6 @@
     background: linear-gradient(to right, rgb(68, 148, 68), rgb(87, 205, 87), rgb(150, 227, 170)); /* light to dark green */
 }
 
-
     .left {
         align-items: center;
         display: flex;
@@ -165,7 +164,7 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   gap: 1rem;
   padding: 1rem;
-  background-color: rgb(139, 219, 160);
+  background-color: rgb(126, 191, 143);
 }
 
 .social-footer2 img {
@@ -340,7 +339,7 @@
 }
 
 /* Sixth Header (Pablo) */
-.header6 {
+/* .header6 {
     display: flex;
     align-items: center;
     padding: 1rem 4rem;
@@ -398,7 +397,69 @@
         }
         }
     }
+} */
+.header6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: rgba(0, 0, 0, 0.85);
 }
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo6 {
+  max-width: 4rem;
+}
+
+.company-name6 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 🔁 Vertical button stack */
+.right6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end; /* aligns buttons to right */
+}
+
+.btn6 {
+        color: rgb(0, 0, 0);
+        background-color: rgba(7, 14, 9, 0.457);
+        font-size:  1rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        box-shadow: 2.6px 5.1px 5.1px hsl(0, 2%, 56%);
+        transition-duration: 150ms;
+        color: #cfd3d1;
+
+        &:hover {
+            transform: translateX(2.6px) translateY(5,1px);
+             box-shadow: 0 0 0 hsla(0, 4%, 22%, 0.42);
+        }
+
+        &:not(:hover) {
+            transform: scale(0.9);
+        }
+
+        &:active {
+            box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+            color: #62b078;
+        }
+
+        &:not(:active) {
+            transform: rotateZ(0deg);
+        }
+}
+
 
 .footer6 {
     display: flex;
@@ -409,6 +470,7 @@
     padding: 0.2rem 1rem;
 }
 
+/* Header 7 (Josh) */
 .header7 {
   display: flex;
   justify-content: space-between;
@@ -454,7 +516,6 @@
   transform: scale(0.95);
 }
 
-/* ✅ This was nested incorrectly, now placed at the root level */
 .footer7 {
   background-color: #6e366e;
   color: #fff;
