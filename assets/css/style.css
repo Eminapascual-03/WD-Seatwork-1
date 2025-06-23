@@ -322,6 +322,131 @@
   transition: transform 0.3s ease;
 }
 
+/* Sixth Header (Pablo) */
+.header6 {
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.737);
+
+    .left {
+        align-items: center;
+        display: flex;
+        gap: 2rem;
+
+      .logo6 {
+        max-width: 4rem;
+    }
+
+    .company-name6 {
+        font-size: 1.5rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        }
+    }
+
+    .right {
+        display: flex;
+        gap: 8rem;
+
+    .btn6 {
+        color: rgb(0, 0, 0);
+        background-color: rgba(7, 14, 9, 0.457);
+        font-size:  1rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        box-shadow: 2.6px 5.1px 5.1px hsl(0, 2%, 56%);
+        transition-duration: 150ms;
+        color: #cfd3d1;
+
+        &:hover {
+            transform: translateX(2.6px) translateY(5,1px);
+             box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+        }
+
+        &:not(:hover) {
+            transform: scale(0.9);
+        }
+
+        &:active {
+            box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+            color: #62b078;
+        }
+
+        &:not(:active) {
+            transform: rotateZ(0deg);
+        }
+        }
+    }
+}
+
+.footer6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 149, 149);
+    font-size: 0.8rem;
+    padding: 0.2rem 1rem;
+}
+
+.header7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: rgb(155, 77, 158);
+  position: relative;
+}
+
+.left {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.logo-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo7 {
+  max-width: 9rem;
+}
+
+.btn7 {
+  color: #ffffff;
+  background-color: rgb(133, 6, 147);
+  font-size: 1rem;
+  font-family:fantasy;
+  padding: 0.5rem 2rem;
+  border-radius: 7.5px;
+  box-shadow: 2.6px 5.1px 5.1px hsla(277, 85%, 77%, 0.42);
+  text-decoration: none;
+}
+
+.btn7:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.btn7:active {s
+  color: #240024;
+  transform: scale(0.95);
+}
+
+/* ✅ This was nested incorrectly, now placed at the root level */
+.footer7 {
+  background-color: #6e366e;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: .8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .footer1 {
     display: flex;
     justify-content: center;
