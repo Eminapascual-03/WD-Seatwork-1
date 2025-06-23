@@ -23,7 +23,7 @@
     align-items: center;
     padding: 0.5rem 1rem;
     justify-content: space-between;
-    background-color: rgb(26, 116, 98);
+    background-color: rgb(69, 221, 191);
 
     .left {
         align-items: center;
@@ -156,6 +156,7 @@
         }
     }
 }
+
 
 .footer2 {
     display: flex;
@@ -305,7 +306,7 @@
     padding: 0.2rem 3rem;
 } */
 
-.social-footer {
+.social-footer1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,7 +317,7 @@
   background-color: rgb(23, 64, 176);
 }
 
-.social-footer img {
+.social-footer1 img {
   width: 20px;
   height: 20px;
   transition: transform 0.3s ease;
@@ -432,7 +433,7 @@
   box-shadow: none;
 }
 
-.btn7:active {s
+.btn7:active {
   color: #240024;
   transform: scale(0.95);
 }
