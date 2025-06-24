@@ -5,24 +5,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/Eminapascual-03/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/blue rose.png" alt="Rose" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-Seatwork-1: Header and Footer Designs </h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   This project is demonstrating my skills in making different design layouts on headers and footers.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-1)
+![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Seatwork-1)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime]
 (https://wakatime.com/dashboard)
 
 ---
@@ -58,37 +53,21 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-  -This is the first activity on Web Design that is composed of One main header and footer and inside that is the 5 designs each of header and footer.
-- Whats the purpose
-  -The purpose of this project is to practice using HTML and CSS to build and style websites, learn how to reuse parts of a webpage like headers and footers, and showcase our creativity in designing layouts, buttons, and colors.
-- What are key components
-  - One main layout with a header and footer.
-  - 5 different header designs and 5 footer designs.
-  -Different buttons with animations
-- What technology used and how it is used
-  -HTML5 used to build the structure of the webpage like text, buttons, and images. 
-  -CSS used to add style, color, spacing, fonts, shadows, and animations to make the site look nice.
+This project is our first activity in Web Design, consisting of one main layout with a header and footer, and includes five unique designs for both headers and footers. The purpose is to practice using HTML and CSS to build and style web pages, learn how to reuse common webpage parts, and show creativity in designing layouts, buttons, and colors. Key components include the main layout, animated buttons, and multiple custom designs for both headers and footers. HTML5 was used to create the structure of the pages, including text, buttons, and images, while CSS3 was used to style the layout with colors, spacing, fonts, shadows, and animations to enhance the overall design.
 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
+- Five different header designs
+- Five different footer designs
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -126,7 +105,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Five Headers and Five Footers Design | The purpose of this project is to design various headers and footers to practice layout structuring and enhance visual presentation using HTML and CSS. | trykolang.com |
