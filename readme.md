@@ -17,7 +17,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Seatwork-1)
 
-[![wakatime]
+[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 (https://wakatime.com/dashboard)
 
 ---
@@ -54,20 +54,20 @@
 ## Overview
 
 <!-- The following are just sample -->
-This project is our first activity in Web Design, consisting of one main layout with a header and footer, and includes five unique designs for both headers and footers. The purpose is to practice using HTML and CSS to build and style web pages, learn how to reuse common webpage parts, and show creativity in designing layouts, buttons, and colors. Key components include the main layout, animated buttons, and multiple custom designs for both headers and footers. HTML5 was used to create the structure of the pages, including text, buttons, and images, while CSS3 was used to style the layout with colors, spacing, fonts, shadows, and animations to enhance the overall design.
+Description of the project in details.
 
+Guiding Question:
+This project is our first activity in Web Design, consisting of one main layout with a header and footer, and includes five unique designs for both headers and footers. The purpose is to practice using HTML and CSS to build and style web pages, learn how to reuse common webpage parts, and show creativity in designing layouts, buttons, and colors. Key components include the main layout, animated buttons, and multiple custom designs for both headers and footers. HTML5 was used to create the structure of the pages, including text, buttons, and images, while CSS3 was used to style the layout with colors, spacing, fonts, shadows, and animations to enhance the overall design.
 
 ### Key Components
 <!-- The following are just sample -->
 
 - Single Page Website
-- Five different header designs
-- Five different footer designs
+- Five Header and Footer Design 
 
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -107,4 +107,6 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Five Headers and Five Footers Design | The purpose of this project is to design various headers and footers to practice layout structuring and enhance visual presentation using HTML and CSS. | trykolang.com |
+| Header Template | Basis idea for header | https://ph.pinterest.com/pin/31947478601798150/ |
+| Header Template | Basis idea for header | https://ph.pinterest.com/pin/9570217952355643/ |
+| Footer Template | Basis idea for footer | https://ph.pinterest.com/pin/3729612228842378/ |
