@@ -124,7 +124,6 @@
   margin-top: 0.3rem;
 }
 
-/* Right section: Buttons centered horizontally */
 .right {
   display: flex;
   gap: 2rem;
@@ -136,13 +135,13 @@
   background-color: #275937;
   color: #edf7f2;
   font-size: 1rem;
-  font-family:cursive;
+  font-family: cursive;
   padding: 0.6rem 1.5rem;
   border-radius: 15px;
   border: 2px solid #1a3d2c;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease;
+  box-shadow: 2px 4px 10px rgb(64, 66, 64);
 }
 
 .btn2:hover {
@@ -150,6 +149,13 @@
   color: #0a4d1f;
   box-shadow: 0 0 10px #2c9763;
 }
+
+.btn2:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+   transform: translateX(4px) rotate(3deg);
+}
+
 
 .social-footer2 {
   display: flex;
@@ -185,53 +191,55 @@
   background-color: rgb(147, 48, 48);
 }
 
-.logo3 {
+.header3 .logo3 {
   max-width: 7rem;
 }
 
-.company-name3 {
+.header3 .company-name3 {
   font-size: 1.5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #fdfdfd;
 }
 
-    .left {
-        display: flex;
-        gap: 1.5rem;
-}
-    .btn3 {
-        background-color: rgb(130, 13, 13);
-        padding: 0.2rem;
-        border-radius: 20px;
-        box-shadow: 2.6px 5.1px 5.1px hsl(0, 94%, 67%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.header3 .left {
+  display: flex;
+  gap: 1.5rem;
 }
 
-    .btn3 img {
-        max-width: 60px;
-        height: auto;
+.header3 .btn3 {
+  background-color: rgb(130, 13, 13);
+  padding: 0.2rem;
+  border-radius: 20px;
+  box-shadow: 2.6px 5.1px 5.1px hsl(0, 94%, 67%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 
-         &:hover {
-            transform: translateX(2.6px) translateY(5,1px);
-             box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-        }
-        
-        /*
-        &:not(:hover) {
-            transform: scale(0.9);
-        }
+.btn3 img {
+  max-width: 60px;
+  height: auto;
+}
 
-        &:active {
-            box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-            color: #62b078;
-        }
+.btn3:hover {
+  transform: translateX(2.6px) translateY(5.1px);
+  box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+}
 
-        &:not(:active) {
-            transform: rotateZ(15deg)
-        } */
+.btn3:not(:hover) {
+  transform: scale(0.9);
+}
+
+.btn3:active {
+  box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
+  color: #62b078;
+}
+
+.btn3:not(:active) {
+  transform: rotateZ(2deg);
+}
+
 
 .footer3 {
     display: flex;
@@ -333,65 +341,6 @@
 }
 
 /* Sixth Header (Pablo) */
-/* .header6 {
-    display: flex;
-    align-items: center;
-    padding: 1rem 4rem;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.737);
-
-    .left {
-        align-items: center;
-        display: flex;
-        gap: 2rem;
-
-      .logo6 {
-        max-width: 4rem;
-    }
-
-    .company-name6 {
-        font-size: 1.5rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        }
-    }
-
-    .right {
-        display: flex;
-        gap: 8rem;
-
-    .btn6 {
-        color: rgb(0, 0, 0);
-        background-color: rgba(7, 14, 9, 0.457);
-        font-size:  1rem;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        box-shadow: 2.6px 5.1px 5.1px hsl(0, 2%, 56%);
-        transition-duration: 150ms;
-        color: #cfd3d1;
-
-        &:hover {
-            transform: translateX(2.6px) translateY(5,1px);
-             box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-        }
-
-        &:not(:hover) {
-            transform: scale(0.9);
-        }
-
-        &:active {
-            box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-            color: #62b078;
-        }
-
-        &:not(:active) {
-            transform: rotateZ(0deg);
-        }
-        }
-    }
-} */
 .header6 {
   display: flex;
   justify-content: space-between;
@@ -496,7 +445,7 @@
   font-family:fantasy;
   padding: 0.5rem 2rem;
   border-radius: 7.5px;
-  box-shadow: 2.6px 5.1px 5.1px hsla(277, 85%, 77%, 0.42);
+  /* box-shadow: 2.6px 5.1px 5.1px hsla(277, 85%, 77%, 0.42); */
   text-decoration: none;
 }
 
