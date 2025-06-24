@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/image.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/blue rose.png" alt="Rose" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-Seatwork-1</h3>
+  <h3 align="center">WD-Seatwork-1: Header and Footer Designs </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project is demonstrating my skills in making ??? (Optional)
+  This project is demonstrating my skills in making different design layouts on headers and footers.
 </div>
 
 <br />
@@ -63,9 +63,17 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  -This is the first activity on Web Design that is composed of One main header and footer and inside that is the 5 designs each of header and footer.
 - Whats the purpose
+  -The purpose of this project is to practice using HTML and CSS to build and style websites, learn how to reuse parts of a webpage like headers and footers, and showcase our creativity in designing layouts, buttons, and colors.
 - What are key components
+  - One main layout with a header and footer.
+  - 5 different header designs and 5 footer designs.
+  -Different buttons with animations
 - What technology used and how it is used
+  -HTML5 used to build the structure of the webpage like text, buttons, and images. 
+  -CSS used to add style, color, spacing, fonts, shadows, and animations to make the site look nice.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
