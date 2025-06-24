@@ -58,11 +58,6 @@
         color: #240024;
         transform: rotateY(0deg);
 
-        /* &:hover {
-            transform: translateX(2.6px) translateY(5,1px);
-             box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
-        } */
-
         &:not(:hover) {
             transform: scale(0.9);
         }
@@ -71,17 +66,12 @@
             box-shadow: 0 0 0 hsl(0deg 0% 0% / 0.42);
             color: #240024;
         }
-
-        /* &:not(:active) {
-            transform: rotateY(0deg)
-        }*/
         }
     }
 }
 
 .contents {
     height: 100%;
-    /* border: 1px black dotted; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
